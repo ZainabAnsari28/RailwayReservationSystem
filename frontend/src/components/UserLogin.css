@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+  }
+  
+/* Add padding to containers */
+.user-container {
+    padding: 30px;
+    background-color: white;
+  }
+
+  .user{
+    width: 50%;
+    margin-left: 25%;
+    color: black;
+  }
+  
+  /* Full-width input fields */
+   input[type=password], input[type=email] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    input[type=password]:focus, input[type=email]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+    /* Set a style for all buttons */
+    .userloginbtn{
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+      text-align: center;
+    }
+    
+    .userloginbtn:hover {
+      opacity:1;
+    }
+    
+    /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+
+  .user-panel{
+    color: black;
+  }

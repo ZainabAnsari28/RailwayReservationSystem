@@ -1,0 +1,68 @@
+* {
+  box-sizing: content-box;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Button {
+  align-items: "center";
+  justify-content: "center";
+  position: relative;
+  height: 20px;
+  z-index: 1;
+  display: "flex";
+  flex-direction: column;
+  width: "120px";
+  height: "50px";
+}
+
+.col-sm-3.offset-sm-1.mt-5.mb-4.text-gred {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* center the div horizontally */
+}
+.card {
+  background-color: #fff;
+  padding: 20px;
+  /* border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  /* height: 450px; */
+  max-width: 700px; /* optional: adjust the max-width based on your needs */
+  margin: 0 auto; /* horizontally center the card */
+}
+/* .form-booking {
+  width: 60%;
+  margin-left: 25%;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.booking {
+  color: black;
+}
+
+.instruction {
+  color: black;
+  margin-left: 23%;
+}
+
+.cancelbookingbtn {
+  background-color: red;
+  color: white;
+  padding: 15px 20px;
+  margin: 6px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+} */

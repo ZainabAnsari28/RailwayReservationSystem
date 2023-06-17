@@ -1,0 +1,60 @@
+/* * {
+  box-sizing: border-box;
+}
+
+.cancelTicket-container {
+  height: 100%;
+  width: 90%;
+  padding-right: 80%;
+
+  position: relative;
+  padding: 30px;
+  background-color: white;
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  justify-content: "center";
+
+  z-index: 1;
+  text-align: left;
+  align-content: left;
+
+  contain-intrinsic-size: 80%;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+Set a style for the submit button .adminregisterbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 14%;
+  opacity: 0.9;
+}
+
+.adminregisterbtn:hover {
+  opacity: 1;
+  color: black;
+} */
